@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+        * {
+            font-family: 'Gowun Batang', serif;
+        }
+
+        html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://github.com/NAEUNJI/IMG_public/blob/Sparta/SPARTA%20back%20ground.png?raw=true");
+        }
+
+        .title {
+            color: black;
+            background-color: white;
+            font-size: 24px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 25px;
+        }
+
+        .subtitle {
+            color:gray;
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        .box {
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+            margin: 8px;
+            position: relative;
+            font-size: 14px;
+            text-align: center;
+            word-break: keep-all;
+        }
+
+        .img1 {
+            background-image: url("https://github.com/NAEUNJI/IMG_public/blob/Sparta/SPARTA%20box%20img1.png?raw=true");
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .img2 {
+            background-image: url("https://github.com/NAEUNJI/IMG_public/blob/Sparta/SPARTA%20box%20img2.png?raw=true");
+            background-size: cover;
+            background-position: center;
+            color: tomato;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .done::after {
+            content: "";
+            width: 70%;
+            height: 70%;
+            background-image: url("https://github.com/NAEUNJI/IMG_public/blob/Sparta/SPARTA%20stamp.png?raw=true");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 20%;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+    <h1 class="title">2023 버킷리스트</h1>
+    <div class="row flex-row wrap">
+        <div class="box img1-t5 center">이직하기</div>
+        <div class="box img2-t5 center">CSTS 자격증</div>
+        <div class="box img6-t5 center">매일 영어회화 10분씩</div>
+        <div class="box img5-t5 center">HTML/CSS 마스터</div>
+        <div class="box img4-t5 center">꾸준히 일기쓰기</div>
+        <div class="box img3-t5 center">목표만큼 저금하기</div>
+    </div>
+        <p class="subtitle">@ NA EUN JI</p>
+</body>
+
+</html>
